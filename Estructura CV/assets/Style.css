@@ -1,0 +1,26 @@
+header{
+    background-color: aquamarine;
+}
+
+main{
+background-color: coral;
+}
+
+ol{
+    font-size: 22px;
+}
+
+ul{
+    font-size: 28px;
+}
+
+.cabecera_inicial{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.parrafo_quien{
+    text-align: justify;
+    font-size: 30px;
+    color: blue;
+}
