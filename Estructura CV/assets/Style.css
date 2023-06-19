@@ -1,26 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header{
-    background-color: aquamarine;
+    background-color: rgb(240, 225, 225);
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 50px;
+    margin: 20px;
+}
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: rgba(177, 76, 76, 0.678);
 }
 
-main{
-background-color: coral;
+.Linkedin{
+    text-align: center;
+    font-size: 20px;
+    margin: 5px 5px;
 }
-
-ol{
-    font-size: 22px;
+.Face{
+    text-align: center;
+    font-size: 20px;
+    margin: 5px 5px;
 }
-
-ul{
-    font-size: 28px;
-}
-
-.cabecera_inicial{
-    font-size: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.parrafo_quien{
-    text-align: justify;
+.Acercademi{
+    text-align: center;
     font-size: 30px;
-    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(177, 76, 76, 0.678);
+}
+.profile_description{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 20px 10px 20px 10px;
+}
+.Experiencia{
+    text-align: left;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(43, 41, 41, 0.678);
+    margin: 20px 10px 20px 10px;
+}
+.Estudios{
+    text-align: left;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(48, 46, 46, 0.678);
+    margin: 20px 10px 20px 10px;
+    
+}
+main{
+    background-color: rgb(241, 203, 214);
+    padding: 50px;
+    margin: 20px;
+    text-align: justify;
+  
+}
+.referencias{
+    text-align: left;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(65, 62, 62, 0.678);    
+}
+ol{
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 30px 30px 30px ;
+}
+ul{
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 30px 30px 30px ;
 }
