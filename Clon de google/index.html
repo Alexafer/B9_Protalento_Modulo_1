@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles.css" />
+    <title>Clon de Google</title>
+  </head>
+  <body>
+    <header>
+      <ul id="items-header">
+        <!-- aca se pone flex -->
+        <li><a href="http://">Privacidad</a></li>
+        <li><a href="http://">Perfil</a></li>
+        <li><a href="http://">Configuraciones</a></li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <img
+          src="./Assets/Images/Nuevo-logo-Google-destacada.jpg"
+          alt="image-logo"
+          id="principal-logo"
+        />
+      </section>
+
+      <section id="principal">
+        <input placeholder="Buscar ..." id="search-input" type="text" />
+        <div id="botonera">
+          <button>Buscar</button>
+          <button>Denunciar</button>
+        </div>
+      </section>
+
+      <section>
+        <div id="clickAqui">
+          <span>Para continuar usando este buscador haz click</span>
+          <a href="www.google.com">Aqui!</a>
+        </div>
+      </section>
+    </main>
+    <footer>PIE DE PAGINA</footer>
+  </body>
 </html>
