@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+header{
+    background-color: #9e596a;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#items_header{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
