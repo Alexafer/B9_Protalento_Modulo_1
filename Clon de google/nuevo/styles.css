@@ -3,7 +3,7 @@
     padding: 0; 
 }
 body{
-    background-color: #fb91ac;
+    background-color: #f3f0f1;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@ body{
 
 /*--------------------------------*/
 header{
-    background-color: #9e596a;
+    background-color: white;
     height: 50px;
     display: flex;
     align-items: center;
@@ -22,7 +22,8 @@ header{
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: 15px;
+    gap: 20px;
+   
 }
 main{
     background-color: rgb(255, 255, 255);
@@ -37,7 +38,7 @@ main{
     height: 100px;
     }
 #search_input{
-    width: 400px;
+    width: 500px;
     height: 50px;
     border-radius: 10px;
     padding-left: 15px;
@@ -51,19 +52,36 @@ main{
     flex-direction: column;
     gap: 10px ;
 }
-#botonera{
+#Search{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
-
 a{
     text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn-search{
+    background-color: blue;
     color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 footer{
-    background-color: black;
-    height: 10px;
+    background-color: blueviolet
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#items_footer{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 100px;
 }
